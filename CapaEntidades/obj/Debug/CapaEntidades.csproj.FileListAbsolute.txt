@@ -1,0 +1,5 @@
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.pdb

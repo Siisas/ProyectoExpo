@@ -1,0 +1,481 @@
+﻿* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #8B9B96;
+    margin: 0 auto;
+    overflow: hidden;
+}
+form-group1 {
+    margin-bottom: 3px;
+    background-color:red;
+}
+
+#txtFooter {
+    margin-top: -2px;
+}
+
+
+h2 {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#header {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#cabecera {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    margin-top: -39px;
+}
+
+#logoSena {
+   margin-left: 59%;
+        position: absolute;
+        width: 30%;
+        height: 183px;
+        margin-top: -31px;
+   
+}
+
+#logoSiis {
+    width: 33%;
+    height: 150px;
+    margin-left: -2px;
+}
+
+#banner {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    border: 0px solid #000000;
+    margin-left: 15px;
+}
+
+
+
+#cuerpo {
+    position: absolute;
+    background-color: #D6CFCF;
+    width: 94.4%;
+    height: 68.7%;
+    margin-top: 5px;
+}
+
+
+.Imagenblog {
+    margin-left: 32px;
+    width: 1300px;
+    margin-top: 61px;
+}
+
+#BtnGuardar {
+    background-color: #5eb319;
+}
+
+/*VentanaModal*/
+
+#cerrarSesion {
+    background-color: #5eb319;
+    margin-left: 1070px;
+    width: px;
+    height: 30px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: Arial;
+    position: absolute;
+    font-weight: bold;
+}
+
+    #cerrarSesion:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+
+.cerrar {
+    font-weight: 900;
+    margin-top: -20px;
+    margin-left: 230px;
+}
+
+    .cerrar a {
+        color: #5eb319;
+    }
+
+
+/*Cierro Ventana Prueba*/
+
+
+#cerrarSesion {
+    background-color: #5eb319;
+    margin-left: 1070px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: Arial;
+    position: absolute;
+    font-weight: bold;
+}
+
+.auto-style1 {
+    border: 10px ridge white;
+    background-color: transparent;
+    margin-left: 28%;
+    font-size: 18px;
+    width: 509px;
+}
+
+Columns {
+    background-color: red;
+}
+
+GridView {
+    background-color: black;
+}
+
+
+
+/*Pagina Home*/
+
+.ingreso {
+    background-color: #5eb319;
+    width: 13%;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 23%;
+    margin-top: -6%;
+    position: absolute;
+    font-weight: bold;
+}
+
+
+
+    .ingreso:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+.prestamo {
+    background-color: #5eb319;
+    width: 13%;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 23%;
+    margin-top: 10%;
+    position: absolute;
+    font-weight: bold;
+}
+
+    .prestamo:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+#logoingreso {
+    margin-top: 1%;
+    margin-left: 12%;
+    width: 8%;
+    height: 8%;
+}
+
+#logogestion {
+    margin-left: 55%;
+    width: 9%;
+    height: 24%;
+    margin-top: -8.4%;
+    position: absolute;
+}
+
+#logoprestamo {
+    margin-top: 8%;
+    margin-left: 12%;
+    width: 8%;
+    height: 8%;
+}
+
+#logotrazabilidad {
+    margin-left: 35%;
+    width: 110px;
+    height: 110px;
+    margin-top: 0%;
+}
+
+
+
+.trazabilidad {
+    background-color: #5eb319;
+    width: 13%;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 870px;
+    margin-top: -7%;
+    font-weight: bold;
+}
+
+    .trazabilidad:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+#logodevolucion {
+    margin-top: 8%;
+    margin-left: 12%;
+    width: 8%;
+    height: 8%;
+}
+
+#logoreservas {
+    margin-left: 35%;
+    width: 110px;
+    height: 110px;
+    margin-top: 0%;
+}
+
+.devolucion {
+    background-color: #5eb319;
+    width: 13%;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 23%;
+    margin-top: 10%;
+    position: absolute;
+    font-weight: bold;
+}
+
+    .devolucion:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+
+
+.reservas {
+    background-color: #5eb319;
+    width: 180px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 870px;
+    margin-top: -85px;
+    font-weight: bold;
+}
+
+    .reservas:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+
+.gestion {
+    background-color: #5eb319;
+    width: 180px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-left: 870px;
+    margin-top: -81px;
+    font-weight: bold;
+}
+
+    .gestion:hover {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+    }
+
+
+/*Pagina Login*/
+#inventario {
+    margin-left: 33%;
+    width: 34%;
+    height: 204px;
+    margin-top: 20px;
+}
+
+#textoUsuario {
+    margin-top: -16%;
+    margin-left: 116%;
+    height: 0px;
+}
+
+
+
+#ContenidoCuerpo_Usuario {
+    width: 250px;
+    height: 26px;
+    margin-top: 0%;
+    margin-left: 45%;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#ContenidoCuerpo_Contraseña {
+    width: 250px;
+    height: 26px;
+    margin-top: -60px;
+    border-radius: 5px;
+}
+
+
+#Busuario {
+    background-color: #5eb319;
+    margin-left: 280px;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3%;
+    font-family: Arial;
+    position: absolute;
+}
+
+#Bcontrasena {
+    background-color: #5eb319;
+    margin-left: 280px;
+    margin-top: 7%;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+}
+
+#ContenidoCuerpo_IniciarSesion {
+    background-color: #5eb319;
+    margin-left: 41%;
+    margin-top: 2%;
+    width: 200px;
+    height: 30px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: Arial;
+    position: relative;
+}
+
+
+
+
+/*General el parrafo ubicado en el banner*/
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 231%;
+    font-family: Arial;
+}
+
+@media screen and (max-width:768px) {
+    .body {
+        : 100%;
+    }
+
+    body{
+
+
+overflow:auto;
+
+
+    }
+
+
+
+
+    #banner {
+        width: 100%;
+        height: 110%;
+        background-color: #5eb319;
+        border: 0px solid #000000;
+    }
+
+    #logoSena {
+        margin-left: 59%;
+        position: absolute;
+        width: 30%;
+        height: 183px;
+        margin-top: -32px;
+    }
+
+
+    #logoSiis {
+        width: 40%;
+    }
+
+    #cuerpo {
+        height: 70.5%;
+        background-color: #5eb319;
+    }
+
+    #txtFooter {
+        text-align: left;
+        font-size: 5px;
+    }
+
+    .Imagenblog {
+        width: 0%;
+    }
+}

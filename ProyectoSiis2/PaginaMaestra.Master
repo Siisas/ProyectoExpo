@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="ProyectoSiis2.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>SIIS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/faviconn.ico" />
+    <link href="App_Themes/Tema1/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="App_Themes/Tema1/bootstrap.css" rel="stylesheet" />
+    <link href="App_Themes/Tema1/bootstrap-theme.min.css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+            <div class="Principal">
+
+                <div id="header">
+
+                    <div id="cabecera">
+                        <img id="logoSena" <img src="Imagenes/LogoSiis.png" /> 
+                        <img id="logoSiis" src="Imagenes/LOGO.png " />
+                    </div>
+                    <div id="banner">
+
+                        <asp:ContentPlaceHolder ID="ContenidoBanner" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </div>
+
+
+                    <div id="cuerpos">
+                        <asp:ContentPlaceHolder ID="ContenidoCuerpo" runat="server">
+                        </asp:ContentPlaceHolder>
+
+
+                        <asp:ContentPlaceHolder ID="ContenidoPie" runat="server">
+                        </asp:ContentPlaceHolder>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </form>
+</body>
+
+</html>

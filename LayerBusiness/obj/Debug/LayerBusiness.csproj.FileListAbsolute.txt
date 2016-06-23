@@ -1,0 +1,18 @@
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\LayerBusiness.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\LayerBusiness.pdb
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\LayerData.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\LayerData.pdb
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.pdb
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\CapaEntidades.dll
+C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\LayerBusiness\bin\Debug\CapaEntidades.pdb
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\LayerBusiness.dll
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\LayerBusiness.pdb
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\CapaEntidades.dll
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\LayerData.dll
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\CapaEntidades.pdb
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\bin\Debug\LayerData.pdb
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.dll
+C:\Users\FLIA RUIZ MOLINA\Desktop\todo sena\Sena 2016\sena Sexto\todo visual\Projects\Nueva carpeta\ProyectoSiis2\LayerBusiness\obj\Debug\LayerBusiness.pdb
