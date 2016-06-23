@@ -135,6 +135,16 @@
                
       
 
+                <asp:TemplateField HeaderText="Id_Empleado">
+                    <EditItemTemplate>
+                        <asp:TextBox ID="TxtFK_Id_Empleado" runat="server" Text='<%# Bind("FK_Id_Empleado") %>'></asp:TextBox>
+                    </EditItemTemplate>
+                    <ItemTemplate>
+                        <asp:Label ID="Label6" runat="server" Text='<%# Bind("FK_Id_Empleado") %>'></asp:Label>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+
                 <asp:CommandField ShowEditButton="True" />
             </Columns>
         </asp:GridView>

@@ -163,16 +163,16 @@ namespace ProyectoSiis2
             TextBox TFI = (TextBox)row.FindControl("TxtFecha_Ingreso");
             TextBox TE = (TextBox)row.FindControl("TxtEstado");
             TextBox TNE = (TextBox)row.FindControl("TxtNombreElemento");
-          
-          
-            
+            TextBox IE = (TextBox)row.FindControl("TxtFk_Id_Empleado");
+
+
 
 
 
 
             try
             {
-                result = oLB.SpEditarElemento(Id_Elemento, TNP.Text, TNS.Text, TM.Text, TMO.Text, Int64.Parse(TC.Text), Convert.ToDateTime(TFI.Text), Int64.Parse(TE.Text),TNE.Text);
+                result = oLB.SpEditarElemento(Id_Elemento, TNP.Text, TNS.Text, TM.Text, TMO.Text, Int64.Parse(TC.Text), Convert.ToDateTime(TFI.Text), Int64.Parse(TE.Text),TNE.Text,Int64.Parse(IE.Text));
                 if (result > 0)
                 {
                     LblMsg.Text = "EMpleado Editado";

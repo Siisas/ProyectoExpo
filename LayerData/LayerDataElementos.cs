@@ -88,7 +88,7 @@ namespace LayerData
                 }
             }
         }
-        public int SpEditarElemento(Int64 Id_Elemento, string N_placa, string N_Serial, string Marca, string Modelo, Int64 Categoria_Id_Categoria, DateTime Fecha_Ingreso, Int64 Estado_Id_Estado, string Nombre_Elemento)
+        public int SpEditarElemento(Int64 Id_Elemento, string N_placa, string N_Serial, string Marca, string Modelo, Int64 Categoria_Id_Categoria, DateTime Fecha_Ingreso, Int64 Estado_Id_Estado, string Nombre_Elemento, Int64 FK_Id_Empleado)
         {
             using (SqlConnection cnx = new SqlConnection(strconn))
             {
@@ -108,6 +108,7 @@ namespace LayerData
                     OrdenSQL.Parameters.AddWithValue("@Fecha_Ingreso", Fecha_Ingreso);
                     OrdenSQL.Parameters.AddWithValue("@Estado_Id_Estado", Estado_Id_Estado);
                     OrdenSQL.Parameters.AddWithValue("@Nombre_Elemento", Nombre_Elemento);
+                    OrdenSQL.Parameters.AddWithValue("@FK_Id_Empleado", FK_Id_Empleado);
                     return OrdenSQL.ExecuteNonQuery();
 
 
