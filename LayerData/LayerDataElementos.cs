@@ -10,8 +10,8 @@ namespace LayerData
 {
     public class LayerDataElementos
     {
-        // /     public string strconn = @"Data Source = ufkadqmy3n.database.windows.net,1433; Initial Catalog = bdproyecto; Persist Security Info=True;User ID = pruebanomina; Password=AZUre2016";
-             public string strconn = @"Data Source = ufkadqmy3n.database.windows.net,1433; Initial Catalog = PROYECTO; Persist Security Info=True;User ID = pruebanomina; Password=AZUre2016";
+          public string strconn = @"Data Source = ufkadqmy3n.database.windows.net,1433; Initial Catalog = bdproyecto; Persist Security Info=True;User ID = pruebanomina; Password=AZUre2016";
+      //       public string strconn = @"Data Source = ufkadqmy3n.database.windows.net,1433; Initial Catalog = PROYECTO; Persist Security Info=True;User ID = pruebanomina; Password=AZUre2016";
 
         //public string strconn = @"Data Source=GALEX;Initial Catalog=PROYECTO;Integrated Security=True";
         //Data Source = GALEX; Initial Catalog = pruebaspro1; Integrated Security = True
