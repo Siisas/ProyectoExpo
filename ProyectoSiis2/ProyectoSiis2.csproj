@@ -83,6 +83,7 @@
     <Content Include="App_Themes\Tema1\sticky-footer-navbar.css" />
     <Content Include="App_Themes\Tema1\theme.css" />
     <Content Include="CapaEntidades.dll" />
+    <Content Include="Gestion.aspx" />
     <Content Include="Imagenes\bg-footer.jpg" />
     <Content Include="Imagenes\blogCeet.jpg" />
     <Content Include="Imagenes\calendar.jpg" />
@@ -135,6 +136,13 @@
     <Content Include="WebMestra.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Gestion.aspx.cs">
+      <DependentUpon>Gestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gestion.aspx.designer.cs">
+      <DependentUpon>Gestion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

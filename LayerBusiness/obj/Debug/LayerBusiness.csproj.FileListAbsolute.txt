@@ -25,3 +25,12 @@ C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerBusiness\bin\Debug\Laye
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.dll
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\LayerBusiness.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\LayerBusiness.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\CapaEntidades.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\LayerData.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\CapaEntidades.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\LayerData.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.pdb

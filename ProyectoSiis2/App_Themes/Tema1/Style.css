@@ -3,6 +3,15 @@
     padding: 0%;
 }
 
+.mensaje {
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px Gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 
 
 a {
@@ -15,9 +24,10 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
+
 form-group1 {
     margin-bottom: 3px;
-    background-color:red;
+    background-color: red;
 }
 
 #txtFooter {
@@ -48,12 +58,11 @@ h2 {
 }
 
 #logoSena {
-   margin-left: 59%;
-        position: absolute;
-        width: 30%;
-        height: 183px;
-        margin-top: -31px;
-   
+    margin-left: 59%;
+    position: absolute;
+    width: 30%;
+    height: 183px;
+    margin-top: -31px;
 }
 
 #logoSiis {
@@ -434,12 +443,8 @@ p {
         : 100%;
     }
 
-    body{
-
-
-overflow:auto;
-
-
+    body {
+        overflow: auto;
     }
 
 

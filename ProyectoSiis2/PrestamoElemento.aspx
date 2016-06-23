@@ -11,7 +11,7 @@
             <li><a href="Home.aspx">Inicio</a></li>
             <li><a href="IngresoELemento.aspx">Ingreso Elemento</a></li>
             <li class="active"><a href="PrestamoElemento.aspx">Prestamo</a></li>
-            <li><a href="#">Devolución</a></li>
+            <li><a href="Gestion.aspx">Gestión</a></li>
             <li><a href="ReservaElemento.aspx">Reservas</a></li>
             <li><a href="InventarioElemento.aspx">Inventarios</a></li>
         </ul>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="form-group1">
                             <asp:TextBox ID="TxtId_Prestamo" runat="server" CssClass="form-control " Width="600px   "></asp:TextBox>
-                            <label>Nombre Solicitante</label>1
+                            <label>Nombre Solicitante</label>
                         </div>
                         <div class="form-group1">
                             <asp:TextBox ID="TxtNombre_Solicitante" runat="server" CssClass="form-control" Width="600px"></asp:TextBox>

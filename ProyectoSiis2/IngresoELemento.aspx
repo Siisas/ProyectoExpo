@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContenidoBanner" runat="server">
-    <link href="../bootstrap.min.css" rel="stylesheet">
+<link href="../bootstrap.min.css" rel="stylesheet">
 
 
 
@@ -12,8 +12,8 @@
             <li><a href="Home.aspx">Inicio</a></li>
             <li class="active"><a href="IngresoELemento.aspx">Ingreso Elemento</a></li>
             <li><a href="PrestamoElemento.aspx">Prestamo</a></li>
-            <li><a href="#">Devolución</a></li>
-            <li><a href="ReservaElemento.aspx">Reservas</a></li>
+            <li><a href="DevolucionElemento.aspx">Gestión</a></li>
+            <li><a href="ReservaElemento.aspx">Reservas</a></li>    
             <li><a href="InventarioElemento.aspx">Inventarios</a></li>
         </ul>
     </nav>
@@ -35,11 +35,11 @@
                 <div class="box box-tools">
                     <div class="box-body">
                         <div class="form-group">
-                            <label>Id de Control</label>
+                            <label>Id de Elemento</label>
                         </div>
                         <div class="form-group1">
                             <asp:TextBox ID="TxtIdElemento" runat="server" CssClass="form-control " Width="600px   "></asp:TextBox>
-                            <label>Número Placa</label>1
+                            <label>Número Placa</label>
                         </div>
                         <div class="form-group1">
                             <asp:TextBox ID="TxtNumeroPlaca" runat="server" CssClass="form-control" Width="600px"></asp:TextBox>

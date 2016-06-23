@@ -33,7 +33,7 @@ namespace LayerBusiness
         {
             try
             {
-                return ObjBS.SpMostrarElemento();
+               return ObjBS.SpMostrarElemento();
             }
 
             catch (Exception)
@@ -47,6 +47,51 @@ namespace LayerBusiness
             }
 
         }
+
+
+        public DataTable MostrarElemento()
+        {
+            try
+            {
+                return ObjBS.MostrarElemento();
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+
+            finally
+            {
+                ObjBS = null;
+            }
+
+        }
+
+     //mostrar drop
+
+
+        public DataTable SpMostrarInventario()
+        {
+            try
+            {
+                return ObjBS.SpMostrarInventario();
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+
+            finally
+            {
+                ObjBS = null;
+            }
+
+        }
+
+
+
 
         public int SpEditarElemento(Int64 Id_Elemento, string N_placa, string N_Serial, string Marca, string Modelo, Int64 Categoria_Id_Categoria, DateTime Fecha_Ingreso, Int64 Estado_Id_Estado, string Nombre_Elemento, Int64 FK_Id_Empleado)
 
@@ -68,11 +113,11 @@ namespace LayerBusiness
         }
 
       
-        public int EliminarElemento(Int64 IdElemento)
+        public int EliminarElemento(Int64 Id_Elemento)
         {
             try
             {
-                return ObjBS.SpEliminarElemento(IdElemento);
+                return ObjBS.SpEliminarElemento(Id_Elemento);
             }
 
             catch (Exception)

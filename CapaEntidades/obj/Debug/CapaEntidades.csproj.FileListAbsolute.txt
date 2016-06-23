@@ -3,3 +3,8 @@ C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoSiis2\ProyectoSiis2\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.pdb

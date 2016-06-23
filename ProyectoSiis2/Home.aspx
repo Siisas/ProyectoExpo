@@ -12,7 +12,7 @@
             <li class="active"><a href="Home.aspx">Inicio</a></li>
             <li><a href="IngresoELemento.aspx">Ingreso Elemento</a></li>
             <li><a href="PrestamoElemento.aspx">Prestamo</a></li>
-            <li><a href="#">Devolución</a></li>
+            <li><a href="Gestion.aspx">Gestión</a></li>
             <li><a href="ReservaElemento.aspx">Reservas</a></li>
             <li><a href="InventarioElemento.aspx">Inventarios</a></li>
         </ul>

@@ -11,7 +11,7 @@
                     <li><a  href="Home.aspx"">Inicio</a></li>
                     <li><a  href="IngresoELemento.aspx">Ingreso Elemento</a></li>
                     <li><a  href="#">Prestamo</a></li>
-                    <li><a  href="#">Devolución</a></li>
+                    <li><a  href="Gestion.aspx">Gestión</a></li>
                     <li><a  href="ReservaElemento.aspx">Reservas</a></li>
                     <li class="active" ><a  href="InventarioElemento.aspx">Inventarios</a></li>
                 </ul>
@@ -57,13 +57,16 @@
         </p>
            <%--   <asp:Button ID = "BtnMostrar" Style="background-color:#5eb319;color:white;border-radius:10px 10px;margin-top:8px; margin-left:40%;" runat = "server" Text = "Presiona aqui para ver el inventario" OnClick="BtnMostrar_Click"/>
  --%>
+    <div>
 
+        <h1 style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">Elemento Disponibles</h1>
+    </div>
 
-
- <asp:GridView ID="GVDatos" runat="server" AutoGenerateColumns="False" DataKeyNames="Id_Elemento" OnRowCancelingEdit="GVDatos_RowCancelingEdit" OnRowEditing="GVDatos_RowEditing" OnRowUpdating="GVDatos_RowUpdating">
+    <div class="grilla1">
+ <asp:GridView ID="GVDatos" runat="server" AutoGenerateColumns="False" DataKeyNames="Id_Elemento" OnRowCancelingEdit="GVDatos_RowCancelingEdit" style ="margin-left:210px;" OnRowEditing="GVDatos_RowEditing" OnRowUpdating="GVDatos_RowUpdating">
             <Columns>
                 <asp:BoundField DataField="Id_Elemento" HeaderText="Id_Elemento" />
-                <asp:TemplateField HeaderText="Id_Elemento">
+                <asp:TemplateField HeaderText="Numero de placa">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtNumeroPlaca" runat="server" Text='<%# Bind("N_placa") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -71,7 +74,7 @@
                         <asp:Label ID="Label1" runat="server" Text='<%# Bind("N_placa") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="TxtNumeroSerial">
+                <asp:TemplateField HeaderText="Numero de Serial">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtNumeroSerial" runat="server" Text='<%# Bind("N_Serial") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -79,7 +82,7 @@
                         <asp:Label ID="Label2" runat="server" Text='<%# Bind("N_Serial") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="TxtMarca">
+                <asp:TemplateField HeaderText="Marca">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtMarca" runat="server" Text='<%# Bind("Marca") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -87,7 +90,7 @@
                         <asp:Label ID="Label3" runat="server" Text='<%# Bind("Marca") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                <asp:TemplateField HeaderText="TxtModelo">
+                <asp:TemplateField HeaderText="Modelo">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtModelo" runat="server" Text='<%# Bind("Modelo") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -95,7 +98,7 @@
                         <asp:Label ID="Label4" runat="server" Text='<%# Bind("Modelo") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateField>
-                 <asp:TemplateField HeaderText="TxtCategoria">
+                 <asp:TemplateField HeaderText="Categoria">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtCategoria" runat="server" Text='<%# Bind("Categoria_Id_Categoria") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -105,7 +108,7 @@
                 </asp:TemplateField>
 
 
-                <asp:TemplateField HeaderText="TxtFecha_Ingreso">
+                <asp:TemplateField HeaderText="Fecha de Ingreso">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtFecha_Ingreso" runat="server" Text='<%# Bind("Fecha_Ingreso") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -114,7 +117,7 @@
                     </ItemTemplate>
                 </asp:TemplateField>
 
-                          <asp:TemplateField HeaderText="TxtEstado">
+                          <asp:TemplateField HeaderText="Estado">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtEstado" runat="server" Text='<%# Bind("Estado_Id_Estado") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -124,7 +127,7 @@
                 </asp:TemplateField>
 
 
-                <asp:TemplateField HeaderText="TxtNombreElemento">
+                <asp:TemplateField HeaderText="Nombre del Elemento">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtNombreElemento" runat="server" Text='<%# Bind("Nombre_Elemento") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -135,7 +138,7 @@
                
       
 
-                <asp:TemplateField HeaderText="Id_Empleado">
+                <asp:TemplateField HeaderText="Cedula del Empleado">
                     <EditItemTemplate>
                         <asp:TextBox ID="TxtFK_Id_Empleado" runat="server" Text='<%# Bind("FK_Id_Empleado") %>'></asp:TextBox>
                     </EditItemTemplate>
@@ -148,7 +151,9 @@
                 <asp:CommandField ShowEditButton="True" />
             </Columns>
         </asp:GridView>
-    <div>
+    </div>
+        
+        <div>
     
     </div>
          <p>

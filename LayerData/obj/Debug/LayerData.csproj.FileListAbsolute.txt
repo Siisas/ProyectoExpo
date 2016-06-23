@@ -19,3 +19,10 @@ C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerData\bin\Debug\CapaEnti
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.csprojResolveAssemblyReference.cache
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.dll
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\bin\Debug\LayerData.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\bin\Debug\LayerData.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\bin\Debug\CapaEntidades.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\bin\Debug\CapaEntidades.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.csprojResolveAssemblyReference.cache
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.pdb

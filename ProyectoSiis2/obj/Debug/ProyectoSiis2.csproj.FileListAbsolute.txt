@@ -73,3 +73,28 @@ C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\ProyectoSiis2\bin\LayerData.
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\ProyectoSiis2\obj\Debug\ProyectoSiis2.csprojResolveAssemblyReference.cache
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\ProyectoSiis2\obj\Debug\ProyectoSiis2.dll
 C:\Users\FLIA RUIZ MOLINA\Source\Repos\ProyectoExpo\ProyectoSiis2\obj\Debug\ProyectoSiis2.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\csc.exe
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\vbc.exe
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\VBCSCompiler.exe
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\ProyectoSiis2.dll.config
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\ProyectoSiis2.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\ProyectoSiis2.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\CapaEntidades.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\LayerBusiness.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\LayerData.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\LayerBusiness.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\bin\LayerData.pdb
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\obj\Debug\ProyectoSiis2.csprojResolveAssemblyReference.cache
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\obj\Debug\ProyectoSiis2.dll
+C:\Users\RICARD\Source\Repos\ProyectoExpo2\ProyectoSiis2\obj\Debug\ProyectoSiis2.pdb

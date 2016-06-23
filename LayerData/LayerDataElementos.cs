@@ -88,6 +88,78 @@ namespace LayerData
                 }
             }
         }
+
+
+        //Objeto para el drop
+
+        public DataTable SpMostrarInventario()
+        {
+            using (SqlConnection cnx = new SqlConnection(strconn))
+            {
+                cnx.Open();
+                SqlDataAdapter ObjMostrar = new SqlDataAdapter("Select Id_Elemento, Id_Elemento FROM Ingreso_Elemento", cnx);
+                ObjMostrar.SelectCommand.CommandType = CommandType.Text;
+                DataSet ds = new DataSet();
+                try
+                {
+                    ObjMostrar.Fill(ds, "Table");
+                    return ds.Tables["Table"];
+
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+                finally
+                {
+
+
+                    cnx.Close();
+                    cnx.Dispose();
+                    ObjMostrar.Dispose();
+                    ds.Dispose();
+                }
+            }
+        }
+
+
+
+
+
+        public DataTable MostrarElemento()
+        {
+            using (SqlConnection cnx = new SqlConnection(strconn))
+            {
+                cnx.Open();
+                SqlDataAdapter ObjMostrar = new SqlDataAdapter("SpInsertarPrestamo", cnx);
+                ObjMostrar.SelectCommand.CommandType = CommandType.Text;
+                DataSet ds = new DataSet();
+                try
+                {
+                    ObjMostrar.Fill(ds, "Table");
+                    return ds.Tables["Table"];
+
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+                finally
+                {
+
+
+                    cnx.Close();
+                    cnx.Dispose();
+                    ObjMostrar.Dispose();
+                    ds.Dispose();
+                }
+            }
+        }
+
+
+
+
+
         public int SpEditarElemento(Int64 Id_Elemento, string N_placa, string N_Serial, string Marca, string Modelo, Int64 Categoria_Id_Categoria, DateTime Fecha_Ingreso, Int64 Estado_Id_Estado, string Nombre_Elemento, Int64 FK_Id_Empleado)
         {
             using (SqlConnection cnx = new SqlConnection(strconn))
@@ -125,7 +197,7 @@ namespace LayerData
                 }
             }
         }
-        public int SpEliminarElemento(Int64 IdElemento)
+        public int SpEliminarElemento(Int64 Id_Elemento)
         {
             using (SqlConnection cnx = new SqlConnection(strconn))
             {
@@ -136,7 +208,7 @@ namespace LayerData
 
                 try
                 {
-                    OrdenSql.Parameters.AddWithValue("@Id_Elemento", IdElemento);
+                    OrdenSql.Parameters.AddWithValue("@Id_Elemento", Id_Elemento);
                     return OrdenSql.ExecuteNonQuery();
 
 
