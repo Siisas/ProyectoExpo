@@ -72,11 +72,11 @@
                      <asp:BoundField DataField="Nombre_Elemento" HeaderText="Nombre del Elemento" />
                  <%--    <asp:BoundField DataField="FK_Id_Empleado" HeaderText="Empleado" /--%>
                 <asp:TemplateField HeaderText="Eliminar">
-                    
+                  <%--  
                     <ItemTemplate>
                         <asp:LinkButton ID="LinkButton2" runat="server" Text="Eliminar" CausesValidation="False" CommandName="Delete"></asp:LinkButton>
                     </ItemTemplate>
-                </asp:TemplateField>
+                </asp:TemplateField>--%>
             </Columns>
         </asp:gridview>
 
