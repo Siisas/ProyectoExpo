@@ -41,29 +41,29 @@ namespace ProyectoSiis2
         protected void BtnGuardar_Click(object sender, EventArgs e)
         {
 
-            if (!Page.IsValid)
-            {
-                return;
-            }
-            else
-            {
-                try
-                {
-                    oLB.InsertarPrestamo(Convert.ToInt64(TxtId_Prestamo.Text), TxtNombre_Solicitante.Text, Convert.ToInt64(TxtFk_Id_Elemento.Text), Convert.ToDateTime(TxtFecha_Prestamo.Text), TxtObservaciones.Text, TxtFk_Id_Estado.Text, TxtFk_Id_Categoria.Text);
-                    mensaje.Text = "Prestamo Realizado con Exito";
-                }
-                catch (Exception exc)
-                {
-                    mensaje.Text = exc.Message.ToString();
-                }
-                finally
-                {
-                    oLB = null;
-                }
+            //if (!Page.IsValid)
+            //{
+            //    return;
+            //}
+            //else
+            //{
+            //    try
+            //    {
+            //        oLB.InsertarPrestamo(Convert.ToInt64(TxtId_Prestamo.Text), TxtNombre_Solicitante.Text, Convert.ToInt64(TxtFk_Id_Elemento.Text), Convert.ToDateTime(TxtFecha_Prestamo.Text), TxtObservaciones.Text, TxtFk_Id_Estado.Text, TxtFk_Id_Categoria.Text);
+            //        mensaje.Text = "Prestamo Realizado con Exito";
+            //    }
+            //    catch (Exception exc)
+            //    {
+            //        mensaje.Text = exc.Message.ToString();
+            //    }
+            //    finally
+            //    {
+            //        oLB = null;
+            //    }
 
 
 
-            }
+            //}
         }
 
 

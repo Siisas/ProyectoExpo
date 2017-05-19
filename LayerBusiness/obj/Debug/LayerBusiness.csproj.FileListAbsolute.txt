@@ -34,3 +34,10 @@ C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\bin\Debug\LayerData.pdb
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.dll
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerBusiness\obj\Debug\LayerBusiness.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\bin\Debug\LayerBusiness.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\bin\Debug\LayerBusiness.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\bin\Debug\LayerData.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\bin\Debug\LayerData.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerBusiness\obj\Debug\LayerBusiness.pdb

@@ -82,7 +82,6 @@
     <Content Include="App_Themes\Tema1\npm.js" />
     <Content Include="App_Themes\Tema1\sticky-footer-navbar.css" />
     <Content Include="App_Themes\Tema1\theme.css" />
-    <Content Include="CapaEntidades.dll" />
     <Content Include="Gestion.aspx" />
     <Content Include="Imagenes\bg-footer.jpg" />
     <Content Include="Imagenes\blogCeet.jpg" />
@@ -119,6 +118,7 @@
     <None Include="Properties\PublishProfiles\siis - Web Deploy.pubxml">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="RegistroUsuario\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -131,6 +131,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="PrestamoElemento.aspx" />
+    <Content Include="RegistroUsuario\RegistroUsuario.aspx" />
     <Content Include="ReservaElemento.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebMestra.aspx" />
@@ -193,6 +194,13 @@
       <DependentUpon>PrestamoElemento.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistroUsuario\RegistroUsuario.aspx.cs">
+      <DependentUpon>RegistroUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroUsuario\RegistroUsuario.aspx.designer.cs">
+      <DependentUpon>RegistroUsuario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ReservaElemento.aspx.cs">
       <DependentUpon>ReservaElemento.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

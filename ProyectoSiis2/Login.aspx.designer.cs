@@ -13,22 +13,22 @@ namespace ProyectoSiis2 {
     public partial class Login {
         
         /// <summary>
-        /// Usuario control.
+        /// TxtUsuario control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Usuario;
+        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
         
         /// <summary>
-        /// Contraseña control.
+        /// TxtPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Contraseña;
+        protected global::System.Web.UI.WebControls.TextBox TxtPassword;
         
         /// <summary>
         /// IniciarSesion control.

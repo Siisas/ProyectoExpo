@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoSiis2", "ProyectoSiis2\ProyectoSiis2.csproj", "{27820848-0D97-485D-AF29-B7BD8042FAF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayerData", "LayerData\LayerData.csproj", "{8A9E5714-56C9-4BF7-88D0-2333EAE7F14B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayerBusiness", "LayerBusiness\LayerBusiness.csproj", "{ED344E18-86AE-490F-BDFC-A418F32DFD20}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{950BDB2B-A55F-4FF4-ADE0-BF4181134931}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{ED344E18-86AE-490F-BDFC-A418F32DFD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED344E18-86AE-490F-BDFC-A418F32DFD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED344E18-86AE-490F-BDFC-A418F32DFD20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{950BDB2B-A55F-4FF4-ADE0-BF4181134931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{950BDB2B-A55F-4FF4-ADE0-BF4181134931}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{950BDB2B-A55F-4FF4-ADE0-BF4181134931}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{950BDB2B-A55F-4FF4-ADE0-BF4181134931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

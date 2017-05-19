@@ -8,3 +8,8 @@ C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\bin\Debug\CapaEntidades
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Source\Repos\ProyectoExpo\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\CapaEntidades\obj\Debug\CapaEntidades.pdb

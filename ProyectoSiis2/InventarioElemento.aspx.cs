@@ -145,54 +145,54 @@ namespace ProyectoSiis2
 
         }
 
-        protected void GVDatos_RowUpdating(object sender, GridViewUpdateEventArgs e)
-        {
-            LayerBusiness.LayerBusinessElementos oLB = new LayerBusiness.LayerBusinessElementos();
-            Int64 Id_Elemento = Convert.ToInt64(GVDatos.DataKeys[e.RowIndex].Value.ToString());
+        //protected void GVDatos_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        //{
+        //    LayerBusiness.LayerBusinessElementos oLB = new LayerBusiness.LayerBusinessElementos();
+        //    Int64 Id_Elemento = Convert.ToInt64(GVDatos.DataKeys[e.RowIndex].Value.ToString());
             
             
 
-            int result = 0;
+        //    int result = 0;
 
-            GridViewRow row = GVDatos.Rows[e.RowIndex];
-            TextBox TNP = (TextBox)row.FindControl("TxtNumeroPlaca");
-            TextBox TNS = (TextBox)row.FindControl("TxtNumeroSerial");
-            TextBox TM = (TextBox)row.FindControl("TxtMarca");
-            TextBox TMO = (TextBox)row.FindControl("TxtModelo");
-            TextBox TC = (TextBox)row.FindControl("TxtCategoria");
-            TextBox TFI = (TextBox)row.FindControl("TxtFecha_Ingreso");
-            TextBox TE = (TextBox)row.FindControl("TxtEstado");
-            TextBox TNE = (TextBox)row.FindControl("TxtNombreElemento");
-            TextBox IE = (TextBox)row.FindControl("TxtFk_Id_Empleado");
-
-
+        //    GridViewRow row = GVDatos.Rows[e.RowIndex];
+        //    TextBox TNP = (TextBox)row.FindControl("TxtNumeroPlaca");
+        //    TextBox TNS = (TextBox)row.FindControl("TxtNumeroSerial");
+        //    TextBox TM = (TextBox)row.FindControl("TxtMarca");
+        //    TextBox TMO = (TextBox)row.FindControl("TxtModelo");
+        //    TextBox TC = (TextBox)row.FindControl("TxtCategoria");
+        //    TextBox TFI = (TextBox)row.FindControl("TxtFecha_Ingreso");
+        //    TextBox TE = (TextBox)row.FindControl("TxtEstado");
+        //    TextBox TNE = (TextBox)row.FindControl("TxtNombreElemento");
+        //    TextBox IE = (TextBox)row.FindControl("TxtFk_Id_Empleado");
 
 
 
 
-            try
-            {
-                result = oLB.SpEditarElemento(Id_Elemento, TNP.Text, TNS.Text, TM.Text, TMO.Text, Int64.Parse(TC.Text), Convert.ToDateTime(TFI.Text), Int64.Parse(TE.Text),TNE.Text,Int64.Parse(IE.Text));
-                if (result > 0)
-                {
-                    LblMsg.Text = "EMpleado Editado";
-                }
-                else
-                {
-                    LblMsg.Text = "Empleado NO Editado";
-                }
-            }
-            catch (Exception exc)
-            {
-                LblMsg.Text = exc.Message.ToString();
-            }
-            finally
-            {
-                oLB = null;
-            }
-            GVDatos.EditIndex = -1;
-            LlenarDatos();
-        }
+
+
+        //    try
+        //    {
+        //        result = oLB.SpEditarElemento(Id_Elemento, TNP.Text, TNS.Text, TM.Text, TMO.Text, Int64.Parse(TC.Text), Convert.ToDateTime(TFI.Text), Int64.Parse(TE.Text),TNE.Text,Int64.Parse(IE.Text));
+        //        if (result > 0)
+        //        {
+        //            LblMsg.Text = "EMpleado Editado";
+        //        }
+        //        else
+        //        {
+        //            LblMsg.Text = "Empleado NO Editado";
+        //        }
+        //    }
+        //    catch (Exception exc)
+        //    {
+        //        LblMsg.Text = exc.Message.ToString();
+        //    }
+        //    finally
+        //    {
+        //        oLB = null;
+        //    }
+        //    GVDatos.EditIndex = -1;
+        //    LlenarDatos();
+        //}
     }
 }
 

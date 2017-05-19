@@ -40,15 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmpleadoLN.cs" />
     <Compile Include="LayerBusinessElementos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
-      <Project>{950bdb2b-a55f-4ff4-ade0-bf4181134931}</Project>
-      <Name>CapaEntidades</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LayerData\LayerData.csproj">
       <Project>{8a9e5714-56c9-4bf7-88d0-2333eae7f14b}</Project>
       <Name>LayerData</Name>

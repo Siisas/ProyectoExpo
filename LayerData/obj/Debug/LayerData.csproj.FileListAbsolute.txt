@@ -26,3 +26,8 @@ C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\bin\Debug\CapaEntidades.pdb
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.csprojResolveAssemblyReference.cache
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.dll
 C:\Users\RICARD\Source\Repos\ProyectoExpo2\LayerData\obj\Debug\LayerData.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerData\bin\Debug\LayerData.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerData\bin\Debug\LayerData.pdb
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.dll
+C:\Users\Ricar\Source\Repos\ProyectoExpo\LayerData\obj\Debug\LayerData.pdb

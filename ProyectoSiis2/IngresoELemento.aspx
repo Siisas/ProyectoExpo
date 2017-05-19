@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContenidoBanner" runat="server">
-<link href="../bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap.min.css" rel="stylesheet">
 
 
 
@@ -13,7 +13,7 @@
             <li class="active"><a href="IngresoELemento.aspx">Ingreso Elemento</a></li>
             <li><a href="PrestamoElemento.aspx">Prestamo</a></li>
             <li><a href="DevolucionElemento.aspx">Gestión</a></li>
-            <li><a href="ReservaElemento.aspx">Reservas</a></li>    
+            <li><a href="ReservaElemento.aspx">Reservas</a></li>
             <li><a href="InventarioElemento.aspx">Inventarios</a></li>
         </ul>
     </nav>
@@ -33,12 +33,26 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="box box-tools">
-                    <div class="box-body">
+                    <div class="form-control">
+                        
+                          <div class="input-group">
+                                        <div class="input-group-addon">Departamento</div>
+                                        
+                                  
+                                                <asp:DropDownList ID="drldpto" runat="server" AutoPostBack="True" CssClass="form-control"></asp:DropDownList>
+                                        
+                                    
+                                    </div>
+
+
                         <div class="form-group">
                             <label>Id de Elemento</label>
-                        </div>
-                        <div class="form-group1">
                             <asp:TextBox ID="TxtIdElemento" runat="server" CssClass="form-control " Width="600px   "></asp:TextBox>
+                        </div>
+
+
+                        <div class="form-group1">
+
                             <label>Número Placa</label>
                         </div>
                         <div class="form-group1">
@@ -102,7 +116,7 @@
                         <div class="form-group1">
                             <asp:TextBox ID="TxtEstado" runat="server" CssClass="form-control" Width="600px"></asp:TextBox>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -130,10 +144,13 @@
       </div>
           
           
-          <p>
-              <asp:Label ID="mensaje" Style="color: black; text-align: center; text-shadow: 5px 5px 5px Gray; text-align: center; font-weight: bold;"
-                  runat="server"></asp:Label>
-          </p>
+         
+
+
+    <p>
+        <asp:Label ID="mensaje" Style="color: black; text-align: center; text-shadow: 5px 5px 5px Gray; text-align: center; font-weight: bold;"
+            runat="server"></asp:Label>
+    </p>
 
 
 </asp:Content>

@@ -102,25 +102,25 @@ namespace ProyectoSiis2
 
 
 
-        protected void GVDatos_RowDeleting(object sender, GridViewDeleteEventArgs e)
-        {
-            LayerBusiness.LayerBusinessElementos oLB = new LayerBusiness.LayerBusinessElementos();
+        //protected void GVDatos_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        //{
+        //    LayerBusiness.LayerBusinessElementos oLB = new LayerBusiness.LayerBusinessElementos();
 
-            Int64 Id_Empleado = Convert.ToInt64(GridView1.DataKeys[e.RowIndex].Value.ToString());
-            try
-            {
-                oLB.EliminarElemento(Id_Empleado);
-                mensaje.Text = "Elemento ELiminado";
-                LlenarDatos();
-            }
-            catch (Exception exc)
-            {
-                mensaje.Text = exc.Message.ToString();
-            }
-            finally
-            {
-                oLB = null;
-            }
-        }
+        //    Int64 Id_Empleado = Convert.ToInt64(GridView1.DataKeys[e.RowIndex].Value.ToString());
+        //    try
+        //    {
+        //        oLB.EliminarElemento(Id_Empleado);
+        //        mensaje.Text = "Elemento ELiminado";
+        //        LlenarDatos();
+        //    }
+        //    catch (Exception exc)
+        //    {
+        //        mensaje.Text = exc.Message.ToString();
+        //    }
+        //    finally
+        //    {
+        //        oLB = null;
+        //    }
+        //}
     }
 }

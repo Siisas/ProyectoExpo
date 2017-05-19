@@ -31,9 +31,11 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="ContenidoPie" runat="server">
     <footer class="footer">
         <link href="App_Themes/Tema1/sticky-footer-navbar.css" rel="stylesheet" />
-        <div class="container">
+       <asp:Button  runat="server" Id="BtnCerrarSesion"    Text="Salir" OnClick="BtnCerrarSesion_Click"/>
+        
+        <%--<div class="container">
             <p class="text-muted">Sena  ©2016  ADSI Ficha 908163  Instructor Jesus Rubio </p>
-        </div>
+        </div>--%>
     </footer>
 
 
