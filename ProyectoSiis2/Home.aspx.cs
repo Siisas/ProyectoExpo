@@ -12,7 +12,7 @@ namespace ProyectoSiis2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //LblUser.Text = Session["Usuario"].ToString();
         }
 
         protected void BtnCerrarSesion_Click(object sender, EventArgs e)

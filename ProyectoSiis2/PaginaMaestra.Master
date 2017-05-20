@@ -29,6 +29,8 @@
                     <div id="cabecera">
                         <img id="logoSena" <img src="Imagenes/LogoSiis.png" /> 
                         <img id="logoSiis" src="Imagenes/LOGO.png " />
+                        <asp:Button  ID="BtnSalir" runat="server" Text="Salir" OnClick="BtnSalir_Click"/>
+                        <asp:Label ID="LblUsuario" runat="server" ></asp:Label>
                     </div>
                     <div id="banner">
 
@@ -44,6 +46,8 @@
 
 
                         <asp:ContentPlaceHolder ID="ContenidoPie" runat="server">
+                        
+                        
                         </asp:ContentPlaceHolder>
 
 

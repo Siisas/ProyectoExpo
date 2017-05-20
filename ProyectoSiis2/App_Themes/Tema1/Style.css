@@ -58,11 +58,20 @@ h2 {
 }
 
 #logoSena {
-    margin-left: 59%;
+    /*margin-left: 59%;
     position: absolute;
     width: 30%;
     height: 183px;
     margin-top: -31px;
+    top: 72px;
+    left: -761px;*/
+    margin-left: 110%;
+    position: absolute;
+    width: 29%;
+    height: 183px;
+    margin-top: -79px;
+    top: 76px;
+    left: -761px;
 }
 
 #logoSiis {

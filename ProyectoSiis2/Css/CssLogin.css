@@ -1,0 +1,71 @@
+﻿body {
+    background-color: #eeeeee;
+}
+
+
+/*######################Estilo LOGIN ###############*/
+#Pnl_Login {
+    height: 70vh;
+    width: 70vh;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
+    box-shadow: 0px 8px 2px -5px rgba(0,0,0,0.41);
+    background-color: #608c99;
+    margin: auto;
+}
+
+#Form_Login {
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+    top: 10vh;
+}
+
+    #Form_Login #Titulo_Login {
+        display: table;
+        width: 100%;
+        height: 100px;
+        font-family: FuenteKamilion;
+        font-size: 450%;
+        margin-bottom: 20px;
+        color: #608c99;
+        transition: 2s ease;
+        text-shadow: 2px 2px 1px #000;
+    }
+
+        #Form_Login #Titulo_Login:hover {
+            text-shadow: 2px 2px 1px #fff;
+        }
+
+        #Form_Login #Titulo_Login div {
+            display: table-cell;
+        }
+
+    #Form_Login #Logo_Login {
+        width: 50%;
+        background-image: url('Imagenes/LogoMilDelicias.JPG');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        border-radius: 100px 30px;
+    }
+
+    #Form_Login .input-group {
+        margin-bottom: 20px;
+    }
+
+    #Form_Login .btn {
+        margin-top: 20px;
+        width: 40%;
+        color: white;
+    }
+
+#Caplock {
+    visibility: hidden;
+}
+
+#Form_Login .alert {
+    width: 100%;
+}
+

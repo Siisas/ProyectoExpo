@@ -17,7 +17,7 @@
               </div>
 
                   <%--<asp:Button ID="btnIngreso" CssClass="btn bg-olive btn-block" runat="server" Text="Iniciar Sesión" OnClick="btnIngreso_Click" />--%>
-                 <asp:Button ID="btnIngreso" Style="background-color: #5eb319; color: white; border-radius: 10px 10px; margin-top: 15%; margin-left: 65%;" runat="server" Text="Guardar" OnClick="btnIngreso_Click" />
+                 <asp:Button ID="btnIngreso" Style="background-color: #5eb319; color: white; border-radius: 10px 10px; margin-top: 15%; margin-left: 65%;" runat="server" Text="Guardar"  />
               <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ProyectoSiisConnectionString %>" SelectCommand="SELECT * FROM [__MigrationHistory]">
               </asp:SqlDataSource>
 

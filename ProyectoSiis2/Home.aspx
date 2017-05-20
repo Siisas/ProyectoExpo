@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PaginaMaestra.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ProyectoSiis2.Home" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContenidoBanner" runat="server">
     <link href="../bootstrap.min.css" rel="stylesheet">
-
+<asp:Label runat="server" ID="LblUser"></asp:Label>
 
 
     <nav>

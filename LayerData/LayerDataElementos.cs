@@ -16,6 +16,8 @@ namespace LayerData
         public int Retorna { get; set; }
         public string Mensaje { get; set; }
         public string Valor { get; set; }
+        public string Usuario { get; set; }
+
         private SqlConnection cx;
         private void Conexion()
         {
@@ -56,7 +58,7 @@ namespace LayerData
         public string VerificarLogin(string usuario, string Password)
         {
             Conexion();
-            SqlCommand cmd = new SqlCommand("select * from Usuario where  Password  = @Password", cx);
+            SqlCommand cmd = new SqlCommand("select * from Usuario where  Password  = @Password and Usuario = @Nombre  ", cx);
   
             string PasswordEncriptado = FormsAuthentication.HashPasswordForStoringInConfigFile(Password, "SHA1");
             cx.Open();
@@ -67,12 +69,16 @@ namespace LayerData
             da.Fill(dt);
             if (dt.Tables[0].Rows.Count >0)
             {
+                DataRow row = dt.Tables[0].Rows[0];
+                Usuario = row[1].ToString();
                 return Valor = "Si";
             }
             else
             {
                 return Valor = "No";
             }
+
+            
 
             //DataRow row = dt.Tables[0].Rows[0];
             //int valor = Convert.ToInt32(row[0]);

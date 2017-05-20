@@ -14,6 +14,7 @@ namespace LayerBusiness
         LayerDataElementos ObjBS = new LayerDataElementos();
         public string Mensaje { get; set; }
         public string Valor { get; set; }
+        public string UsuarioS { get; set; }
         public string CrearUsuario(string Usuario,string Password)
         {
             ObjBS.CrearUsuario(Usuario, Password);
@@ -23,6 +24,7 @@ namespace LayerBusiness
         public string VerificarLogin(string Usuario, string PassWord)
         {
             ObjBS.VerificarLogin(Usuario, PassWord);
+            UsuarioS =  ObjBS.Usuario; 
             return Valor = ObjBS.Valor;
         }
 
